@@ -12,7 +12,13 @@ botonesNumeros.forEach(boton => {
     });
 });
 
+// botonesNumeros.forEach(boton => {
+//     boton.addEventListener('keydown', () => {
+//         display.agregarNumero(boton.innerHTML);
+//     });
+// });
 
+ 
 botonesOperadores.forEach(boton => {
     boton.addEventListener('click', () => display.computar(boton.value))
 })
